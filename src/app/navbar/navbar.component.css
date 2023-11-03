@@ -1,0 +1,87 @@
+#navbar{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.00);
+    background: var(--gray-50, #F9FAFB);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    opacity: 0.97;
+    flex-wrap: wrap;
+}
+
+#rightdiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    
+}
+
+#leftdiv{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#leftdiv div{
+    height: 24px;
+    width: 2px;
+    background: var(--gray-dark-100, #1F2937);
+    display: flex;
+    flex-shrink: 0;
+}
+
+#dc{
+    padding: 6px 16px;
+    border-radius: 10px;
+    border: 0px;
+    background: #111827;
+    color: #F9FAFB;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    flex-shrink: 0;
+}
+
+#dc:hover{
+    background:  #26324d;
+}
+
+.navbtn{
+    background: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: medium;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+
+    #navbar{
+        justify-content: center;
+    }
+
+    #leftdiv{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px 0px;
+    }
+
+    #leftdiv h4{
+        line-height: 0%;
+    }
+
+    #rightdiv{
+        padding-left: 0;
+    }
+
+    
+}
+

@@ -1,0 +1,10 @@
+#experience{
+    padding: 30px 0px;
+    height: auto;
+    background: var(--gray-50, #F9FAFB);
+}
+
+
+#cards h3{
+    text-align: center;
+}

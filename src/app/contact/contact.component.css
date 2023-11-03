@@ -1,0 +1,22 @@
+#contact{
+    padding: 30px 0px;
+    height: auto;
+    background: var(--gray-50, #F9FAFB);
+    text-align: center;
+}
+
+#socialicon img{
+    height: 24px;
+    padding: 0px 5px;
+}
+
+.email img{
+    height: 24px;
+    padding: 0px 10px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

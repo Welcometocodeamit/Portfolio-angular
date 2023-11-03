@@ -1,0 +1,127 @@
+#homepage{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 80%;
+    flex-wrap: wrap-reverse;
+    
+}
+
+#left{
+    width: 60%;
+}
+
+#left h1{
+    font-size: 60px;
+    line-height: 10%;
+}
+
+#location{
+    height: 24px;
+    width: 24px;
+}
+
+#locationdiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#social{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.socialicon{
+    height: 30px;
+    width: 30px;
+}
+
+#pp{
+    height: 320px;
+    width: auto;
+    margin: 0px 50px;
+    position: absolute;
+    border: 6px solid white;
+}
+
+#overlay{
+    height: 320px;
+    width: 200px;
+    /* border: 8px solid var(--gray-dark-default, #030712); */
+    background: var(--gray-dark-200, #374151);
+    margin-top: 30px;
+    margin-left: 125px;
+}
+
+#right{
+    position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #container{
+        width: 95%;
+    }
+
+    #left{
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    #right{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-right: 15%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #container{
+        width: 100%;
+        display: flex;
+        margin: 0px;
+        padding: 0%;
+    }
+
+    #left{
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #right{
+        width: 95%;
+        padding-right: 27%;
+        /* padding-top: 30px; */
+    }
+
+    #left h1{
+        font-size: xx-large;
+    }
+
+    #homepage{
+        padding: 50px 0px;
+    }
+
+    #pp{
+        height: 250px;
+    }
+
+    #overlay{
+        height: 250px;
+        width: 147px;
+    }
+}
