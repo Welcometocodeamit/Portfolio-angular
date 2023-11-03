@@ -5,11 +5,20 @@
     background: var(--gray-50, #F9FAFB);
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 5;
-    opacity: 0.97;
+    z-index: 100;
+    opacity: 0.95;
     flex-wrap: wrap;
+
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+#anchor{
+    text-decoration: none;
 }
 
 #rightdiv{
@@ -22,7 +31,7 @@
 #leftdiv{
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;
+    padding-right: 80px;
     gap: 25px;
     align-items: center;
     flex-wrap: wrap;
@@ -65,7 +74,7 @@
 @media screen and (max-width: 767px) {
 
     #navbar{
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     #leftdiv{
