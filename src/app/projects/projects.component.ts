@@ -17,7 +17,7 @@ export class ProjectsComponent {
   skill103:string="MySQL"
   skill104:string="GitHub"
   github1:string="https://github.com/Welcometocodeamit/Go-Mechanic-Frontend.git"
-  link1:string="https://main.d399yluxa0b0oi.amplifyapp.com/"
+  link1:string="https://go-mechanic-one.vercel.app/"
 
   // second
   heading2:string="WeatherForecast.com"
